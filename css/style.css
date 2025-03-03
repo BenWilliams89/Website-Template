@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: #aeaeca;
+    background: #f8f8f8;
 }
 
 h1, h2, h3 {
@@ -22,7 +22,8 @@ h1, h2, h3 {
 /* Nav CSS */
 
 nav {
-    background: white;
+    background: #aeaeca;
+    padding: 20px;
 }
 
 
@@ -42,9 +43,15 @@ ul li {
 
 a {
     text-decoration: none;
+    color: #fdfdfd;
 }
 
 ul li a:hover {
     text-decoration: underline;
     color: #cac11b;
+}
+
+.btn-warning {
+    color: white;
+    padding: 10px ;
 }
