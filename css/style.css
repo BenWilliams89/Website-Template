@@ -16,7 +16,7 @@ h1, h2, h3 {
     font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #f2f2f2;
+    color: #146d9c;
 }
 
 /* Nav CSS */
@@ -31,11 +31,12 @@ h1, h2, h3 {
     align-items: center;
     color: white;
     text-decoration: none;
+    margin-left: 41px;
 }
 
 .navbar .container {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -111,6 +112,30 @@ h1, h2, h3 {
     transition: 0.3s;
 }
 
+/* Hero section */
+
+.hero .container {
+    display: flex;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.hero-text {
+    width: 100%;
+    padding: 20px;
+    
+}
+
+.hero-para {
+    width: 80%;
+}
+
+.image {
+    border-radius: 50px;
+    width: 600px;
+    height: 500px;
+    padding: 30px;
+}
 
 /* Media Querey for mobile navbar */
 
@@ -120,5 +145,14 @@ h1, h2, h3 {
     }
     .navbar .hamburger-button {
         display: block;
+    }
+}
+
+@media (max-width: 800px) {
+    .hero-image {
+        display: none;
+    }
+    .hero-text {
+        width: 80%;
     }
 }
