@@ -149,18 +149,45 @@ h1 {
 
 /* Who We help */
 
-.who {
+.who .container{
     background: #70b4d9;
-    padding: 50px;
+    padding: 10px;
     margin-top: 30px;
+    border-radius: 30px;
 }
 
 .who-title {
     align-items: center;
     display: flex;
     justify-content: center;
-    color: #fff
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: -50px;
+    
 }
+
+.circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    background-color: #14a96a; /* The color you provided */
+    border-radius: 50%; /* This makes the element a circle */
+    margin: 50px; /* Space between circles */
+    color: #fff;
+    font-size: 38px;
+}
+
+
 
 /* Media Querey for mobile navbar */
 
