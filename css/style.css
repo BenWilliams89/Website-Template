@@ -6,13 +6,11 @@
 
 body {
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: #f8f8f8;
 }
 
-h1, h2, h3 {
+h1 {
     font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -148,6 +146,21 @@ h1, h2, h3 {
     text-decoration: none;
 }
 
+
+/* Who We help */
+
+.who {
+    background: #70b4d9;
+    padding: 50px;
+    margin-top: 30px;
+}
+
+.who-title {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #fff
+}
 
 /* Media Querey for mobile navbar */
 
