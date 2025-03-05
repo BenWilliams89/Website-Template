@@ -259,11 +259,13 @@ h1 {
     width: 90%;
     border-radius: 20px;
     height: auto;
-
 }
 
 
+
 /* Media Querey for mobile navbar */
+
+
 
 @media (max-width: 775px) {
     .navbar .main-menu {
@@ -282,3 +284,4 @@ h1 {
         width: 80%;
     }
 }
+
