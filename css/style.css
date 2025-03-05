@@ -146,17 +146,32 @@ h1 {
     text-decoration: none;
 }
 
-
 /* Who We help */
 
-.who .container{
-    background: #70b4d9;
+.who .container {
+    background: #84888a;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.who-title {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+/* The Process */
+
+.process .container{
+    background: #84888a;
     padding: 10px;
     margin-top: 30px;
     border-radius: 30px;
 }
 
-.who-title {
+.process-title {
     align-items: center;
     display: flex;
     justify-content: center;
@@ -170,23 +185,32 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
+    margin-top: 20px;
 }
 
 .circle {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 250px;
-    height: 250px;
-    background-color: #14a96a; /* The color you provided */
+    width: 200px;
+    height: 200px;
+    background-color: #2f4139; /* The color you provided */
     border-radius: 50%; /* This makes the element a circle */
-    margin: 50px; /* Space between circles */
+    margin: 0 50px; /* Space between circles */
     color: #fff;
     font-size: 38px;
 }
 
+.summary {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.summary p {
+    margin: 0 80px;
+}
 
 
 /* Media Querey for mobile navbar */
