@@ -173,6 +173,45 @@ h1 {
     color: #fff;
     background: #8A9482;
 }
+
+/* Services */
+
+.services {
+    padding: 50px 0;
+}
+
+.service-title {
+    text-align: center;
+    color: #146d9c;
+    margin-bottom: 70px;
+}
+
+.service-content {   
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.service-text-content {
+    flex: 1;
+    margin-right: 10px;
+    max-width: 50%;
+}
+
+.service-image-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    max-width: 50%;
+}
+
+.service-image {
+    width: 90%;
+    border-radius: 20px;
+    height: auto;
+}
+
 /* The Process */
 
 .process .container{
@@ -223,43 +262,7 @@ h1 {
     margin: 0 80px;
 }
 
-/* Services */
 
-.services {
-    padding: 50px 0;
-}
-
-.service-title {
-    text-align: center;
-    color: #146d9c;
-    margin-bottom: 70px;
-}
-
-.service-content {   
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   flex-wrap: wrap;
-}
-
-.service-text-content {
-    flex: 1;
-    margin-right: 10px;
-    max-width: 50%;
-}
-
-.service-image-content {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    max-width: 50%;
-}
-
-.service-image {
-    width: 90%;
-    border-radius: 20px;
-    height: auto;
-}
 
 
 
@@ -274,6 +277,69 @@ h1 {
     .navbar .hamburger-button {
         display: block;
     }
+    .service-content {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .service-text-content, .service-image-content {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .service-image {
+        width: 100%;
+    }
+    .service-header {
+        margin-top: 50px;
+    }
+    .btn {
+        margin-bottom: 20px;
+    }
+    .who .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .who-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .who-cards .card {
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 300px;
+    }
+    .process .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .circle-container {
+        display: none;
+    }
+    .process-title{
+        margin-bottom: 10px;
+    }
+    .summary {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .summary p {
+        font-size: 30px;
+        margin-bottom: 50px
+    }
+    .sumtop {
+        margin-top: -80px;
+    }
+   
 }
 
 @media (max-width: 800px) {
