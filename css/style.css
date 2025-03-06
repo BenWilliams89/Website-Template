@@ -269,6 +269,49 @@ h1 {
 }
 
 
+/* FAQ Section */
+
+.faq .container {
+    padding: 50px 0;
+}
+
+.faq-title {
+    text-align: center;
+    color: #146d9c;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.faq .faq-group {
+    padding: 20px 0;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+
+.faq .faq-group .faq-group-header h4 {
+    font-weight: 600;
+    width: 95%;
+}
+
+.faq .faq-group .faq-group-header i {
+    position: absolute;
+    right: 0;
+    top: 45px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.faq-group-body {
+    display: none;
+}
+
+.faq-group-body.open {
+    display: block;
+}
+
+
+
 
 /* Media Querey for mobile navbar */
 
