@@ -311,7 +311,22 @@ h1 {
     display: block;
 }
 
+/* Pricing */
 
+.pricing .container {
+    padding: 50px 0
+}
+
+.pricing-title {
+    text-align: center;
+    color: #146d9c;
+}
+
+.pricing-card {
+    background: #8481ee;
+    color: #fff;
+    border-radius: 20px;
+}
 
 
 /* Media Querey for mobile navbar */
